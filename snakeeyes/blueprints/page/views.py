@@ -10,9 +10,9 @@ def home():
 
 @page.route('/terms')
 def terms():
-    return render_template('page/terms.html')
-
+    #return render_template('page/terms.html')
+    return "Hello from terms"
 
 @page.route('/privacy')
 def privacy():
-    return render_template('page/privacy.html')
+    return "privacy page rendering"
